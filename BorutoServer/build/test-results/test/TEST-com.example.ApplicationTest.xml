@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ApplicationTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-01-14T03:44:01" hostname="DESKTOP-KP4ELAI" time="0.909">
+  <properties/>
+  <testcase name="accessRootEndpoint" classname="com.example.ApplicationTest" time="0.522"/>
+  <testcase name="access non existing endpoint, assert not found" classname="com.example.ApplicationTest" time="0.25"/>
+  <testcase name="access search heroes endpoint, query hero name, assert multiple heroes result" classname="com.example.ApplicationTest" time="0.081"/>
+  <testcase name="access all heroes endpoint, query all pages" classname="com.example.ApplicationTest" time="0.015"/>
+  <testcase name="access all heroes endpoint, query invalid page number, assert error" classname="com.example.ApplicationTest" time="0.006"/>
+  <testcase name="access search heroes endpoint, query non existing hero, assert empty list as a result" classname="com.example.ApplicationTest" time="0.006"/>
+  <testcase name="access all heroes endpoint, query second page, assert correct information" classname="com.example.ApplicationTest" time="0.005"/>
+  <testcase name="access search heroes endpoint, query hero name, assert single hero result" classname="com.example.ApplicationTest" time="0.006"/>
+  <testcase name="access search heroes endpoint, query an empty text assert empty list as a result" classname="com.example.ApplicationTest" time="0.006"/>
+  <testcase name="access all heroes endpoint, assert correct information" classname="com.example.ApplicationTest" time="0.006"/>
+  <testcase name="access all heroes endpoint, query non existing page number, assert error" classname="com.example.ApplicationTest" time="0.004"/>
+  <system-out><![CDATA[2022-01-14 04:44:02.036 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
+2022-01-14 04:44:02.044 [Test worker] INFO  ktor.test - Application started in 0.066 seconds.
+2022-01-14 04:44:02.072 [Test worker] INFO  [Koin] - loaded 1 definitions - 2.0926 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
